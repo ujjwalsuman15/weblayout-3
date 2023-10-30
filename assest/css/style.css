@@ -82,5 +82,131 @@ header {
     text-align: center;
 }
 
-
 /* /Banner section end */
+
+/* our feature section start */
+.feature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022d7c;
+    margin-top: 50px;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+
+.feature div {
+    width: 30%;
+    height: 500px;
+}
+
+.feature div h4 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.feature div img {
+    width: 350px;
+    height: 200px;
+}
+
+.feature div p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* /our feature section end */
+
+/* About us section start */
+.about {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 60px 300px;
+    background: #022d7c;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.about p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.about button {
+    margin-top: 50px;
+    padding: 10px 100px;
+    background: #022d7c;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px 0px;
+    font-weight: bold;
+}
+
+/* /About us section end */
+
+/* our service section start */
+.services {
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+
+.services .up,
+.services .down {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.services .image,
+.services .content1,
+.services .content2 {
+    width: 50%;
+}
+
+.services .image img {
+    width: 576px;
+    height: 100%;
+}
+
+.services .content1 {
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.services .content2 {
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.services .content1 h2,
+.services .content2 h2 {
+    color: #022d7c;
+    margin-bottom: 50px;
+}
+
+.services .content1 p,
+.services .content2 p {
+    font-size: 18px;
+}
+
+/* /our service section end */
+
+/* footer section start */
+footer {
+    width: 100%;
+    height: auto;
+    background: #022d7c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* /footer section end */
