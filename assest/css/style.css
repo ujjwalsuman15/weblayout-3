@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 /* universal selector start */
 * {
     margin: 0px;
@@ -17,6 +20,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header h2 span {
+    font-size: 15px;
+    font-weight: normal;
 }
 
 /* Header section end */
@@ -42,8 +50,8 @@ header {
 
 .banner h1 span {
     display: block;
-    font-size: 65px;
-    font-weight: 600;
+    font-size: 69px;
+    font-weight: 1000;
 }
 
 .banner h1 span.safety {
@@ -97,7 +105,7 @@ header {
 
 .feature div {
     width: 30%;
-    height: 500px;
+    height: 450px;
 }
 
 .feature div h4 {
@@ -123,7 +131,7 @@ header {
     width: 100%;
     height: auto;
     color: #fff;
-    padding: 60px 300px;
+    padding: 60px 250px;
     background: #022d7c;
     text-align: center;
 }
@@ -142,7 +150,7 @@ header {
     margin-top: 50px;
     padding: 10px 100px;
     background: #022d7c;
-    color: #fff;
+    color: #00fff5;
     border: 1px solid #fff;
     border-radius: 50px 0px;
     font-weight: bold;
@@ -210,3 +218,431 @@ footer {
 }
 
 /* /footer section end */
+
+/* media screen section 1200px start */
+
+@media screen and (max-width:1200px) {
+
+    /* Banner section media screen start */
+
+    header {
+        padding: 10px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    .banner {
+        padding: 0px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .banner h1 span {
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .banner h1 span.safety {
+        font-size: 30px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .banner main {
+        padding-left: 40px;
+    }
+
+    .banner aside {
+        margin-top: 0px;
+        margin-right: 10px;
+        padding-right: 20px;
+    }
+
+    /* /Banner section media screen end */
+
+    /* our feature section media screen start */
+    .feature {
+        width: 100%;
+        height: auto;
+        display: flex;
+        color: #022d7c;
+        margin-top: 25px;
+        padding: 0px 0px;
+    }
+
+    .feature div {
+        width: 100%;
+        height: 500px;
+    }
+
+    .feature div h4 {
+        font-size: 20px;
+        margin-bottom: 7px;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .feature div img {
+        width: 100%;
+        height: 30%;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .feature div p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    /* our feature section media screen end */
+
+    /* About us section media screen start */
+
+    .about {
+        padding: 50px 100px;
+    }
+
+    .about h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .about p {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .about button {
+        margin-top: 15px;
+        padding: 10px 80px;
+        color: #d0ff00;
+        border: 1px solid #fff;
+        border-radius: 10px 10px 50px 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* /About us section media screen end */
+
+    /* our service section media screen start */
+    .services {
+        width: 100%;
+        height: 100%;
+        padding: 40px 0px;
+    }
+
+    .services .up,
+    .services .down {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .services .image,
+    .services .content1,
+    .services .content2 {
+        width: 100%;
+    }
+
+    .services .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services .content1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }
+
+    .services .content2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .services .content1 h2,
+    .services .content2 h2 {
+        color: #022d7c;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .services .content1 p,
+    .services .content2 p {
+        font-size: 18px;
+    }
+
+    /* /our service section media screen end */
+}
+
+/* /media screen section 1200px end */
+
+
+/* media screen section 992px start */
+
+@media screen and (max-width:992px) {
+
+    /* header section media screen start */
+
+    header {
+        padding: 10px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    /* /header section media screen end */
+
+    /* Banner section media screen start */
+
+    .banner {
+        padding: 0px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .banner h1 span {
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .banner h1 span.safety {
+        font-size: 30px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .banner main {
+        padding-left: 40px;
+    }
+
+    .banner aside {
+        margin-top: 0px;
+        margin-right: 10px;
+        padding-right: 20px;
+    }
+
+    /* /Banner section media screen end */
+
+    /* our feature section media screen start */
+    .feature {
+        width: 100%;
+        height: auto;
+        display: flex;
+        color: #022d7c;
+        margin-top: 25px;
+        padding: 0px 0px;
+    }
+
+    .feature div {
+        width: 100%;
+        height: 500px;
+    }
+
+    .feature div h4 {
+        font-size: 20px;
+        margin-bottom: 7px;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .feature div img {
+        width: 100%;
+        height: 30%;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .feature div p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    /* our feature section media screen end */
+
+    /* About us section media screen start */
+
+    .about {
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .about h2 {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+
+    .about button {
+        margin-top: 15px;
+        padding: 10px 80px;
+        color: #ff00dd;
+        border: 1px solid #fff;
+        border-radius: 0px 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* /About us section media screen end */
+
+    /* our service section media screen start */
+    .services {
+        width: 100%;
+        height: 100%;
+        padding: 40px 0px;
+    }
+
+    .services .up,
+    .services .down {
+        display: block;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .services .image,
+    .services .content1,
+    .services .content2 {
+        width: 100%;
+    }
+
+    .services .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services .content1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }
+
+    .services .content2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .services .content1 h2,
+    .services .content2 h2 {
+        color: #022d7c;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .services .content1 p,
+    .services .content2 p {
+        font-size: 18px;
+    }
+
+    /* /our service section media screen end */
+}
+
+
+/* /media screen section 992px end */
+
+
+
+/* media screen section 768px start */
+@media screen and (max-width:768px) {
+
+    /* header section media screen start */
+    header h2 {
+        font-size: 14px;
+    }
+
+    header h2 span {
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+
+
+    /* /header section media screen end */
+
+    /* Banner section media screen start */
+
+
+    .banner {
+        flex-direction: column;
+        padding-bottom: 10px;
+
+    }
+
+    .banner h1 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .banner aside {
+        padding-right: 30px;
+    }
+
+    /* /Banner section media screen end */
+
+    /* our feature section media screen start */
+    .feature {
+        height: 600px;
+    }
+
+    /* our feature section media screen end */
+
+    /* About us section media screen start */
+
+    .about {
+        padding: 30px 30px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about button {
+        margin-top: 25px;
+        padding: 10px 60px;
+    }
+
+    /* /About us section media screen end */
+
+}
+
+/* /media screen section 768px end */
+
+/* media screen section 576px start */
+@media screen and (max-width:576px) {
+
+    /* header section media screen start */
+    header {
+        display: none;
+    }
+
+    /* /header section media screen end */
+}
+
+/* /media screen section 576px end */
